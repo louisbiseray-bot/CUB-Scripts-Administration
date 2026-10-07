@@ -10,3 +10,5 @@ Write-Host "Test de la passerelle"
 Test-NetConnection 192.168.5.126
 Write-Host "Test de résolution DNS"
 Resolve-DnsName www.google.com
+Write-Host "Informations Systeme"
+Get-ComputerInfo
